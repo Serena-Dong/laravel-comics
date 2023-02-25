@@ -15,14 +15,37 @@ header {
 
                 a {
                     color: black;
-                    margin-left: 2rem;
+                    margin-right: 1rem;
                     text-decoration: none;
 
                     &:hover {
                         color: $dc_blue;
                         border-bottom: 5px solid $dc_blue;
-                        padding-bottom: 2.3rem;
+                        padding-bottom: 2.5rem;
                     }
+                }
+            }
+        }
+
+        .search {
+            border-bottom: 2px solid $dc_blue;
+            display: flex;
+
+            .searchbar {
+                width: 5rem;
+                border: none;
+                text-align: end;
+            }
+
+            button {
+                border: none;
+                background-color: transparent;
+                cursor: pointer;
+                font-size: 15px;
+                margin-left: 0.3rem;
+
+                &:hover {
+                    color: grey;
                 }
             }
         }
