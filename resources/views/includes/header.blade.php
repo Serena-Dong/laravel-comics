@@ -5,7 +5,7 @@
 <header>
     <div class="container">
         <figure>
-            <a href="">
+            <a href="/">
                 <img src="{{ Vite::asset('/resources/img/dc-logo.png')}}" alt="">
             </a>
         </figure>
